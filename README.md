@@ -23,6 +23,7 @@ The LV volume over time is plotted, and the contours of the segmented LV are ove
 
 ### Key Functions
 `get_boundaries_and_area(A, x, y, radii)`: Creates a binary mask for the LV, applies thresholding, and detects boundaries of the segmented LV.
+
 `get_area(L)`: Filters out noise and small objects, returning the accurate area of the LV and the corresponding boundaries.
 
 ## Results
