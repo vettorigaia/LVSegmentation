@@ -24,6 +24,7 @@ The LV volume over time is plotted, and the contours of the segmented LV are ove
 ### Key Functions
 `get_boundaries_and_area(A, x, y, radii)`: Creates a binary mask for the LV, applies thresholding, and detects boundaries of the segmented LV.
 
+
 `get_area(L)`: Filters out noise and small objects, returning the accurate area of the LV and the corresponding boundaries.
 
 ## Results
@@ -31,6 +32,8 @@ The LV volume over time is plotted, and the contours of the segmented LV are ove
 The method successfully segmented the left ventricle across all 25 slices.
 The total calculated LV volume was 550 ml.
 The LV volume variation over time was visualized, and the contours of the ventricle were plotted on the original images for validation.
+
+![Schermata 2024-10-02 alle 19 32 38](https://github.com/user-attachments/assets/97a4c63a-312f-452f-84a2-247690101246)
 
 ## Conclusion
 
